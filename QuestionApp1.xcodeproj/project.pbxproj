@@ -13,6 +13,15 @@
 		D6D34B9224B5579A00947D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D34B9024B5579A00947D1E /* Main.storyboard */; };
 		D6D34B9424B5579C00947D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D34B9324B5579C00947D1E /* Assets.xcassets */; };
 		D6D34B9724B5579C00947D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D34B9524B5579C00947D1E /* LaunchScreen.storyboard */; };
+		D6D34B9F24B5597300947D1E /* batsuSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6D34B9E24B5597300947D1E /* batsuSound.mp3 */; };
+		D6D34BA224B5598800947D1E /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6D34BA024B5598800947D1E /* sound.mp3 */; };
+		D6D34BA324B5598800947D1E /* maruSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6D34BA124B5598800947D1E /* maruSound.mp3 */; };
+		D6D34BA824B55B6A00947D1E /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D34BA724B55B6A00947D1E /* NextViewController.swift */; };
+		D6D34BAA24B5A9CC00947D1E /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D34BA924B5A9CC00947D1E /* ImagesModel.swift */; };
+		D6D34BAC24B5AB7C00947D1E /* ImagesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D34BAB24B5AB7C00947D1E /* ImagesList.swift */; };
+		D6D34BAE24C02DF300947D1E /* SoundFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D34BAD24C02DF300947D1E /* SoundFile.swift */; };
+		D6D34BB024C0330300947D1E /* WithOutMP3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D34BAF24C0330300947D1E /* WithOutMP3.swift */; };
+		D6D34BB224C0363B00947D1E /* ChangeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D34BB124C0363B00947D1E /* ChangeColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		D6D34B9324B5579C00947D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6D34B9624B5579C00947D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6D34B9824B5579C00947D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D34B9E24B5597300947D1E /* batsuSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = batsuSound.mp3; sourceTree = "<group>"; };
+		D6D34BA024B5598800947D1E /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		D6D34BA124B5598800947D1E /* maruSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maruSound.mp3; sourceTree = "<group>"; };
+		D6D34BA724B55B6A00947D1E /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		D6D34BA924B5A9CC00947D1E /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModel.swift; sourceTree = "<group>"; };
+		D6D34BAB24B5AB7C00947D1E /* ImagesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesList.swift; sourceTree = "<group>"; };
+		D6D34BAD24C02DF300947D1E /* SoundFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFile.swift; sourceTree = "<group>"; };
+		D6D34BAF24C0330300947D1E /* WithOutMP3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithOutMP3.swift; sourceTree = "<group>"; };
+		D6D34BB124C0363B00947D1E /* ChangeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,48 @@
 		D6D34B8924B5579A00947D1E /* QuestionApp1 */ = {
 			isa = PBXGroup;
 			children = (
+				D6D34BA424B55A2800947D1E /* Model */,
+				D6D34BA524B55A5700947D1E /* View */,
+				D6D34BA624B55A6100947D1E /* Controller */,
+				D6D34B9524B5579C00947D1E /* LaunchScreen.storyboard */,
+				D6D34B9824B5579C00947D1E /* Info.plist */,
+				D6D34B9E24B5597300947D1E /* batsuSound.mp3 */,
+				D6D34BA124B5598800947D1E /* maruSound.mp3 */,
+				D6D34BA024B5598800947D1E /* sound.mp3 */,
+			);
+			path = QuestionApp1;
+			sourceTree = "<group>";
+		};
+		D6D34BA424B55A2800947D1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6D34BA924B5A9CC00947D1E /* ImagesModel.swift */,
+				D6D34BAB24B5AB7C00947D1E /* ImagesList.swift */,
+				D6D34BAD24C02DF300947D1E /* SoundFile.swift */,
+				D6D34BAF24C0330300947D1E /* WithOutMP3.swift */,
+				D6D34BB124C0363B00947D1E /* ChangeColor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6D34BA524B55A5700947D1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6D34B9024B5579A00947D1E /* Main.storyboard */,
+				D6D34B9324B5579C00947D1E /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6D34BA624B55A6100947D1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				D6D34B8A24B5579A00947D1E /* AppDelegate.swift */,
 				D6D34B8C24B5579A00947D1E /* SceneDelegate.swift */,
 				D6D34B8E24B5579A00947D1E /* ViewController.swift */,
-				D6D34B9024B5579A00947D1E /* Main.storyboard */,
-				D6D34B9324B5579C00947D1E /* Assets.xcassets */,
-				D6D34B9524B5579C00947D1E /* LaunchScreen.storyboard */,
-				D6D34B9824B5579C00947D1E /* Info.plist */,
+				D6D34BA724B55B6A00947D1E /* NextViewController.swift */,
 			);
-			path = QuestionApp1;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +176,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D34B9F24B5597300947D1E /* batsuSound.mp3 in Resources */,
 				D6D34B9724B5579C00947D1E /* LaunchScreen.storyboard in Resources */,
 				D6D34B9424B5579C00947D1E /* Assets.xcassets in Resources */,
 				D6D34B9224B5579A00947D1E /* Main.storyboard in Resources */,
+				D6D34BA224B5598800947D1E /* sound.mp3 in Resources */,
+				D6D34BA324B5598800947D1E /* maruSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +193,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D34B8F24B5579A00947D1E /* ViewController.swift in Sources */,
+				D6D34BAE24C02DF300947D1E /* SoundFile.swift in Sources */,
+				D6D34BAC24B5AB7C00947D1E /* ImagesList.swift in Sources */,
+				D6D34BA824B55B6A00947D1E /* NextViewController.swift in Sources */,
 				D6D34B8B24B5579A00947D1E /* AppDelegate.swift in Sources */,
 				D6D34B8D24B5579A00947D1E /* SceneDelegate.swift in Sources */,
+				D6D34BB224C0363B00947D1E /* ChangeColor.swift in Sources */,
+				D6D34BAA24B5A9CC00947D1E /* ImagesModel.swift in Sources */,
+				D6D34BB024C0330300947D1E /* WithOutMP3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yuta5196.QuestionApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yuta5196.QuestionApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
